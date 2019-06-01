@@ -1,4 +1,4 @@
-FROM elixir:1.6-slim
+FROM elixir:1.8.2-slim
 
 COPY . /tmp/
 RUN apt update && \
